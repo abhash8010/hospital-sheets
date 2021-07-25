@@ -1,0 +1,96 @@
+body{
+  margin: 30px;
+}
+.gender-radio{
+  display: flex;
+}
+.form-elements{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+}
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .mainPage-container{
+   width: 50%;
+   display: flex;
+   margin-top: 10px;
+  display: flex;
+  }
+
+ table,th,td{
+border: 1px solid;
+width: 500px;
+ }
+
+ .markdown-viewer{
+   height: 100px;
+   width: 100px;
+   outline: dashed;
+ }
+ 
+ .row-display{
+  width: 100%;
+  }
+.form-markdown-display{
+  display: flex;
+}
+.markdown-component{
+  padding-left: 50px;
+  width: 500px;
+}
+.display-info{
+  padding-top: 40px;
+}
+.signInContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logout-container{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+@media only screen and (max-width: 600px) {
+ .form-markdown-display{
+   display: flex;
+   flex-direction: column;
+
+ }
+ .markdown-component{
+   padding-left: 0;
+   width: 500px;
+ }
+ .form-elements{
+   width: 500px;
+ }
+}
+
+@media only screen and (min-width: 600px )  and (max-width: 1020px){
+  .form-markdown-component{
+    width: 350px;
+  }
+  .form-elements{
+    width: 350px;
+  }
+}
+
+@media print{
+  .form-elements,.print-button,.print-display,.logout,.table-display{
+    visibility: hidden;
+  }
+
+  .markdownPreview{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}

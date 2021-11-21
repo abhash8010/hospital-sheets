@@ -91,7 +91,7 @@ function InputForm({ number, setNumber }) {
                         <label htmlFor="Female">Female</label>
                         <input type="radio" name="gender" value="Female" onChange={handleTitleChange} />
                     </div>
-                    <div className="married">y
+                    <div className="married">
                         <label>Married: </label><br />
                         <label htmlFor="yes">Yes</label>
                         <input type="radio" name="married" value="Yes" id="married" onChange={handleTitleChange} />

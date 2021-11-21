@@ -13,7 +13,7 @@ function LoginContent() {
   const handleLogout = (response) => {
     console.log(response)
     setUser(null)
-    history.goBack()
+    // history.goBack()
   }
   return (
     <>
